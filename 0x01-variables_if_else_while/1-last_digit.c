@@ -1,7 +1,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/** main - Entry point
+/**
+* main - Entry point
 * Description: Last digits
 * Return:Always 0 (Success)
 */
