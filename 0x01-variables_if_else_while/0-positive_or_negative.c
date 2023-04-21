@@ -5,7 +5,7 @@
 /*main - Entry point*/
 /*Description: Print positive, zero or negative*/
 /*always return 0*/
-int main(void)
+int main(void) /*main description*/
 {
 	int n;
 
