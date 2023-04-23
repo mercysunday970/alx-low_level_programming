@@ -8,8 +8,8 @@
  */
 int main(void)
 {
+	char num[10] = "0123456789";
 	int i;
-	char num = "0123456789";
 
 	for (i = 0; i < 10; i++)
 	{
