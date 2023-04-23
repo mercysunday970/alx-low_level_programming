@@ -5,10 +5,11 @@
  *
  * Description: print lower and uppercase letters
  * Return 0 (Success)
+ *
  */
 int main(void)
 {
-	char alp[52] = "a-zA-Z";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 52; i++)
