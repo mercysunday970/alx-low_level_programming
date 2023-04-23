@@ -8,15 +8,16 @@
  */
 int main(void)
 {
-	int i
+	int i;
+	int n;
 	
 	for (i = 48; i < 58; i++)
 	{
 		putchar(i);
 	}
-	for (i = 97; i < 103; i++)
+	for (n = 97; n < 103; n++)
 	{
-		putchar(i);
+		putchar(n);
 	}
 	putchar('\n');
 	return (0);
