@@ -8,12 +8,12 @@
  */ 
 int main (void)
 {
-	int ch = 122
+	int ch = 122;
 
-	while (ch >= 97);
+	while (ch >= 97)
 	{
 		putchar(ch);
-		ch--
+		ch--;
 	}
 	putchar('\n');
 	return (0);
