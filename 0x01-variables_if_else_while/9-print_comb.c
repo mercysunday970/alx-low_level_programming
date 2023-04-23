@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: Single digits 
+ * Description: Single digits
  *
  * Return: Always 0 (Successs)
  */
