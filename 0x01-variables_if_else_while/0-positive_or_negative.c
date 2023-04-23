@@ -4,8 +4,10 @@
 
 /**
  * main - Entry point
- *Description: Print positive, zero or negative
- *always return 0
+ *
+ * Description: Print Positive
+ *
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
