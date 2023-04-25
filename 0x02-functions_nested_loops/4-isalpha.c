@@ -3,12 +3,13 @@
 /**
  * _isalpha - Prints alphabetic character
  *
- * @c: 
+ * @c: The ASCII code
+ *
  * Return: 1 if c is a leeter. lowercase or uppercase. 0 otherwise
  */
 int _isalpha(int c)
 {
-	if ((c = 97 && c <= 122) || (c = 65 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
