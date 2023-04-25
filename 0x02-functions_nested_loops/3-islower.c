@@ -5,7 +5,7 @@
  *
  * @c: the character in ASCII code
  *
- * Returns 1 if lowercase and 0 otherwise
+ * Return: 1 if lowercase character. 0 for the rest.
  */
 int _islower(int c)
 {
