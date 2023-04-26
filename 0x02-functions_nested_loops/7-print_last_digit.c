@@ -3,6 +3,8 @@
 /**
  * print_last_digit - Prints the last digit
  *
+ * @c: the number as an integer
+ *
  * Return: the value of the last digit
  */
 int print_last_digit(int c)
