@@ -5,13 +5,15 @@
  *
  * Return: the value of the last digit
  */
-int print_last_digit(int)
+int print_last_digit(int c)
 {
-	int c;
-	print_last_digit(98);
-	print_last_digit(0);
-	c = print_last_digit(-1024);
-	_putchar('0' + c);
-	_putchar('\n');
-	return (0);
+	int i;
+
+	i = c % 10;
+	if (i < 0)
+	{
+	i = i * -1;
+	}
+	_putchar(i + '0');
+	return (i);
 }
