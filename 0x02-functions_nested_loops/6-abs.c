@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _abs - computes the absolute
@@ -10,12 +11,12 @@
  */
 int _abs(int i)
 {
-	if (i < 0)
-	{
-		return (1);
-	}
-	else
-	{
-		return (i * -1);
-	}
+	int i;
+
+	i = _abs(-1);
+	printf("%d\n", i);
+	i = _abs(0);
+	i = _abs(1);
+	i = _abs(-98);
+	return (0);
 }
