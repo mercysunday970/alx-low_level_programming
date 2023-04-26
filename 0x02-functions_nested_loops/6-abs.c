@@ -15,7 +15,7 @@ int _abs(int i)
 	{
 	int abs_val;
 
-	abs_val = c * -1;
+	abs_val = i * -1;
 	return (abs_val);
 	}
 	return (i);
