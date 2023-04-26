@@ -11,8 +11,6 @@
  */
 int _abs(int i)
 {
-	int i;
-
 	i = _abs(-1);
 	printf("%d\n", i);
 	i = _abs(0);
