@@ -11,10 +11,12 @@
  */
 int _abs(int i)
 {
-	i = _abs(-1);
-	printf("%d\n", i);
-	i = _abs(0);
-	i = _abs(1);
-	i = _abs(-98);
-	return (0);
+	if (i < 0)
+	{
+	int abs_val;
+
+	abs_val = c * -1;
+	return (abs_val);
+	}
+	return (i);
 }
