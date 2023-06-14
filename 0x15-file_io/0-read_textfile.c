@@ -1,5 +1,7 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
+#include <stdio.h>
+#include <unistd.h>
 
 /**
  * read_textfile -  reads a text file and prints
